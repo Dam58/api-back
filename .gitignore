@@ -1,0 +1,7 @@
+env/*
+_pycache_/*
+.vscode/*
+.pytest_cache/*
+htmlcov/*
+struttura_01.txt
+.coverage

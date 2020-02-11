@@ -1,0 +1,8 @@
+{"enviroments":{
+  "test":{
+    "scripts":{
+      "test": "pytest ."
+    }
+  }
+  }
+}
