@@ -109,9 +109,9 @@ class UsersId(Resource):
             u = User.query.filter_by(id=user_id).first()
             if(u is None):
                 return 'User not found', 404
-        db.session.delete(u)
-        db.session.commit()
-        return  204
+            db.session.delete(u)
+            db.session.commit()
+            return  204
 
         except:
             app.logger.error(traceback.format_exc())
