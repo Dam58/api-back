@@ -57,7 +57,7 @@ mpmath==1.1.0
 packaging==20.1
 Pillow==6.2.1
 pluggy==0.13.1
-py==1.8.1
+py==1.10.0
 pycparser==2.19
 PyJWT==1.5.3
 pylint==2.4.4
